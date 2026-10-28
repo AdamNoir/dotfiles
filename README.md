@@ -5,6 +5,22 @@ My personal Linux desktop configuration, including Fastfetch customization, term
 
 ![Desktop Preview](./assets/preview.png)
 
+
+## 📑 Table of Contents
+
+- [Environment](#-environment)
+- [Repository Structure](#-repository-structure)
+- [Installation Guide](#-installation-guide)
+  - [Install Nerd Fonts Symbols](#1-install-nerd-fonts-symbols)
+  - [Install FiraCode Nerd Font](#2-install-firacode-nerd-font)
+  - [Install Fastfetch](#3-install-and-configure-fastfetch)
+  - [Configure the ASCII Logo](#4-configure-the-ascii-logo)
+- [Desktop Customization](#-desktop-customization)
+  - [Icon Theme](#-icon-theme)
+  - [GNOME Extensions](#-gnome-extensions)
+  - [Wallpapers](#-wallpapers)
+- [License](#-license)
+
 ## 🖥️ Environment
 
 | Component | Configuration |
@@ -18,17 +34,20 @@ My personal Linux desktop configuration, including Fastfetch customization, term
 ## 📁 Repository Structure
 
 ```text
-dotfiles/
-├── assets/
-│   ├── wallpapers/
-│   │   └── wall1
-│   ├── profile-pics/
-│   │   └── pic1
-│   ├── ascii-logos/
-│   │   └── logo1
-│   └── preview.png
-└── fastfetch/
-    └── config.jsonc
+└── dotfiles/
+    ├── assets/
+    │   ├── wallpapers/
+    │   │   ├── Anime/
+    │   │   │   └── wall-1.png
+    │   │   └── Lain/
+    │   │       └── wall-2.png
+    │   ├── profile-pics/
+    │   │   └── pic-1.png
+    │   └── ascii-logos/
+    │       └── logo-1.txt
+    └── fastfetch/
+        └── config.jsonc
+
 ```
 
 ## 🚀 Installation Guide
@@ -123,6 +142,33 @@ Save the file and run Fastfetch again:
 fastfetch
 ```
 
+
+## 🎨 Desktop Customization
+
+This section documents the themes, extensions, and visual assets used in my desktop environment.
+
+
+### 🎨 Icon Theme
+
+- **Name:** Colloid icon theme
+- **Source:** [Official Download Page](https://github.com/vinceliuice/Colloid-icon-theme)
+- **Installation:** Install the theme and select it using GNOME Tweaks.
+
+### 🧩 GNOME Extensions
+
+| Extension | Description | Source |
+|---|---|---|
+| Dash to Panel | An icon taskbar for the Gnome Shell. | [GNOME Extensions](https://extensions.gnome.org/extension/1160/dash-to-panel/) |
+
+
+### 🖼️ Wallpapers
+
+My wallpapers are stored in `assets/wallpapers/`.
+
+- **Preview:** [Wallpaper Source](./assets/wallpapers/Anime/wall-14.jpg)
+- **Credits:** Original authors are credited whenever applicable.
+
+
 ## ⚙️ Customization
 
 You can personalize this setup by modifying the following resources:
@@ -141,3 +187,7 @@ You can personalize this setup by modifying the following resources:
 ## 📄 License
 
 Feel free to explore and adapt this configuration for your own Linux setup.
+
+
+
+
